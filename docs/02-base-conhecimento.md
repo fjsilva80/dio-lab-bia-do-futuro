@@ -195,7 +195,7 @@ Em vez de enviar centenas de transações, o sistema pode enviar:
 A integração entre os dados e o LLM deverá seguir uma arquitetura baseada em contexto.
 
 O fluxo poderá ser:
-'''texto
+```texto
 Usuário faz uma pergunta
           ↓
 Sistema identifica a intenção
