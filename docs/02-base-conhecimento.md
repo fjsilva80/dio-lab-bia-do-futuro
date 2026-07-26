@@ -110,11 +110,11 @@ Informações gerais utilizadas para explicar conceitos ao usuário:
 - conceitos básicos de investimentos.
 
 Essas informações deverão ser utilizadas principalmente para fins educativos e explicativos.
-| Arquivo | Formato | Utilização no Agente |
-|---------|---------|---------------------|
-| `dados_usuarios.csv` | CSV | Informações gerais necessárias para contextualizar a análise |
-| `dados_financeiros.csv` | CSV | Informações relacionadas à situação financeira do usuário |
-| `dados_historicos.json` | JSON | Informações que permitem identificar mudanças e padrões ao longo do tempo |
+| Arquivo                 | Formato | Utilização no Agente                                                      |
+|-------------------------|---------|---------------------------------------------------------------------------|
+| `dados_usuarios.csv`    | CSV     | Informações gerais necessárias para contextualizar a análise              |
+| `dados_financeiros.csv` | CSV     | Informações relacionadas à situação financeira do usuário                 |
+| `dados_historicos.json` | JSON    | Informações que permitem identificar mudanças e padrões ao longo do tempo |
 
 ---
 
