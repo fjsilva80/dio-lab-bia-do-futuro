@@ -388,4 +388,4 @@ Princípio fundamental
 
 Os dados financeiros são a fonte da verdade. O LLM é responsável por compreender o contexto e conversar com o usuário.
 
-Isso significa que a NOVA não deve "imaginar" a situação financeira do usuário. Ela deve utilizar dados reais disponíveis, realizar cálculos de forma controlada e transformar os resultados em uma comunicação clara e consultiva.
+**Isso significa que a NOVA não deve "imaginar" a situação financeira do usuário. Ela deve utilizar dados reais disponíveis, realizar cálculos de forma controlada e transformar os resultados em uma comunicação clara e consultiva.**
