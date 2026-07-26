@@ -23,48 +23,40 @@ O problema é a falta de um assistente capaz de conversar com o usuário, compre
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
+> 
+Criar um Agente Financeiro Consultivo baseado em Inteligência Artificial capaz de analisar informações fornecidas pelo usuário e oferecer:
 
-Analisar despesas:
-- comparar gastos entre meses.
-- Identificar aumento ou redução de despesas.
-- Mostrar categorias com maior impacto no orçamento.
--Apresentar a evolução das despesas ao longo do tempo.
+- dicas de organização financeira;
+- explicações sobre conceitos financeiros;
+- identificação de padrões de gastos;
+- alertas sobre possíveis pontos de atenção;
+- comparação entre cenários;
+- apresentação de vantagens e desvantagens;
+- identificação de riscos;
+- sugestões de perguntas que o usuário deveria considerar;
+- auxílio no planejamento de objetivos financeiros.
 
-################################################################
+O agente deverá apresentar as informações de forma clara, simples e personalizada.
 
-Analisar receitas:
-- Comparar evolução da renda.
-- Identificar fontes de receita.
-- Demonstrar variações mensais.
-- Apontar períodos de maior ou menor entrada de recursos.
+Sua função será, ajudar o usuário a compreender melhor sua situação financeira para que ele possa tomar suas próprias decisões.
 
-################################################################
+**O agente não deverá emitir ordens ou determinar o que o usuário deve fazer.**
 
-Analisar patrimônio: 
-- Saldo em contas.
-- Investimentos cadastrados.
-- Bens informados.
-- Dívidas registradas.
-- Evolução do patrimônio.
+Exemplo
 
-################################################################
+Usuário:
 
-Acompanhar objetivos financeiros:
-- Compra de imóvel.
-- Compra de veículo.
-- Formação de reserva financeira.
-- Planejamento para aposentadoria.
-- Viagens.
-- Estudos.
+"Estou pensando em financiar um carro."
 
-################################################################
+Agente:
 
-Identificar tendências: 
-- Crescimento contínuo das despesas.
-- Redução da capacidade de poupança.
-- Alterações no padrão de consumo.
-- Aumento do comprometimento da renda.
+"Antes de decidir, vale analisar alguns pontos: o valor da parcela em relação à sua renda, o custo total do financiamento, seguro, manutenção, combustível e o impacto dessa nova despesa no seu orçamento. Também pode ser interessante comparar diferentes cenários de entrada e prazo. Se quiser, posso ajudar você a organizar essa análise."
 
+**O agente apresenta informações e possibilidades, mas a decisão continua sendo do usuário.**
+
+Público-Alvo
+
+O agente será destinado principalmente a pessoas que desejam melhorar sua organização e consciência financeira, mas que não possuem conhecimento técnico avançado sobre finanças.
 ### Público-Alvo
 > Quem vai usar esse agente?
 
