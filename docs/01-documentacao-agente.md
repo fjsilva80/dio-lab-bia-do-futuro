@@ -19,12 +19,14 @@ Analisar despesas:
 - Identificar aumento ou redução de despesas.
 - Mostrar categorias com maior impacto no orçamento.
 -Apresentar a evolução das despesas ao longo do tempo.
+################################################################
 
 Analisar receitas:
 - Comparar evolução da renda.
 - Identificar fontes de receita.
 - Demonstrar variações mensais.
 - Apontar períodos de maior ou menor entrada de recursos.
+################################################################
 
 Analisar patrimônio: 
 - Saldo em contas.
@@ -32,6 +34,7 @@ Analisar patrimônio:
 - Bens informados.
 - Dívidas registradas.
 - Evolução do patrimônio.
+################################################################
 
 Acompanhar objetivos financeiros:
 - Compra de imóvel.
@@ -40,6 +43,7 @@ Acompanhar objetivos financeiros:
 - Planejamento para aposentadoria.
 - Viagens.
 - Estudos.
+################################################################
 
 Identificar tendências: 
 - Crescimento contínuo das despesas.
