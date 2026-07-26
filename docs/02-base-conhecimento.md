@@ -65,8 +65,10 @@ Exemplo:
   },
   "reserva_financeira": 10000
 }
-C. Dados Históricos
 ```
+
+C. Dados Históricos
+
 
 Informações que permitem identificar mudanças e padrões ao longo do tempo:
 
@@ -138,7 +140,7 @@ Exemplo de dados brutos
 Dados adaptados
 
 O sistema poderá transformar os dados em:
-
+```sql
 {
   "periodo": "Julho de 2026",
   "renda_total": 8000,
@@ -149,7 +151,7 @@ O sistema poderá transformar os dados em:
   },
   "total_despesas": 839.90
 }
-
+```
 A adaptação facilita a interpretação pelo LLM.
 
 Tipos de adaptação
