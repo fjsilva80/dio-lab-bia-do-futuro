@@ -82,7 +82,7 @@ Informações que permitem identificar mudanças e padrões ao longo do tempo:
 - recomendações ou dicas apresentadas anteriormente.
 
 Exemplo:
-``` texto
+
 MÊS  | DESPESA  | 
 -----+----------| 
 Junho| R$ 4.800 | 
@@ -104,7 +104,6 @@ VARIAÇÃO | VALOR |
 
 
 
-```
 
 Esse histórico permite que a NOVA identifique tendências.
 
