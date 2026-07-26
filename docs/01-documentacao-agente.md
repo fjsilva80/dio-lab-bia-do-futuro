@@ -174,6 +174,8 @@ flowchart TD
     AL --> RESP
     E --> RESP
 
+**O usuário faz uma pergunta → o sistema reúne o contexto necessário → analisa a situação → verifica segurança → gera dicas e informações para ajudar o usuário a decidir.**
+
 ### Componentes
 
 | Componente | Descrição |
