@@ -83,16 +83,6 @@ Informações que permitem identificar mudanças e padrões ao longo do tempo:
 
 Exemplo:
 
-MÊS  | DESPESA  | 
------+----------| 
-Junho| R$ 4.800 | 
-Julho| R$ 5.500 | 
-
-VARIAÇÃO | VALOR |  
----------+-------| 
-+        | R$ 700|
-
-
 | MÊS      | DESPESA   |
 | -------- | --------- |
 | Junho    | R$ 4.800  |
