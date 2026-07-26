@@ -1,0 +1,6 @@
+﻿usuario_id;periodo;renda_principal;renda_extra;despesas_mensais;saldo_dividas;parcelas_dividas;saldo_contas;saldo_investimentos;reserva_emergencia;valor_mensal_investido;objetivo_financeiro
+1001;2026-07;8500.0;300.0;5500.0;185000.0;1950.0;37000.0;25000.0;12000.0;1000.0;Apartamento
+1002;2026-07;5200.0;450.0;3900.0;3800.0;500.0;1800.0;1800.0;0.0;500.0;Reserva de emergência
+1003;2026-07;4300.0;0.0;3650.0;28500.0;980.0;350.0;0.0;0.0;0.0;Quitar dívidas
+1004;2026-07;7800.0;700.0;4800.0;0.0;0.0;56500.0;42000.0;0.0;1500.0;Aposentadoria
+1005;2026-07;13500.0;1200.0;7200.0;42000.0;1450.0;177000.0;135000.0;20000.0;3000.0;Independência financeira

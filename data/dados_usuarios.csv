@@ -1,0 +1,6 @@
+﻿usuario_id;nome;idade;estado_civil;profissao;cidade;estado;dependentes;objetivo_principal;nivel_conhecimento_financeiro;data_cadastro
+1001;João Silva;34;Casado;Analista de Sistemas;São Paulo;SP;2;Organizar finanças;Iniciante;2026-01-15
+1002;Maria Costa;28;Solteira;Enfermeira;Campinas;SP;0;Criar reserva de emergência;Iniciante;2026-02-03
+1003;Carlos Souza;45;Casado;Motorista;Guarulhos;SP;3;Reduzir dívidas;Básico;2026-01-28
+1004;Ana Lima;39;Divorciada;Professora;Santos;SP;1;Planejar aposentadoria;Intermediário;2026-03-10
+1005;Pedro Alves;30;Casado;Engenheiro;São Paulo;SP;1;Aumentar patrimônio;Avançado;2026-02-20
