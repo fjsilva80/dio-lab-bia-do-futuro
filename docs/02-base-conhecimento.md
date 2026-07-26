@@ -247,8 +247,9 @@ Pergunta:
 Intenção:
 ANALISAR_CATEGORIA_DE_DESPESA
 2. Identificar os dados necessários
-Dados necessários:
 
+Dados necessários:
+```texto
 ✓ Gastos com alimentação
 ✓ Período atual
 ✓ Período anterior
@@ -263,6 +264,8 @@ Alimentação: R$ 1.200
 
 Renda:
 R$ 5.000
+```
+
 4. Montar o contexto para o LLM
 
 O LLM receberá informações específicas e organizadas.
