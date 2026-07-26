@@ -54,13 +54,20 @@ Agente:
 
 **O agente apresenta informações e possibilidades, mas a decisão continua sendo do usuário.**
 
-Público-Alvo
-
-O agente será destinado principalmente a pessoas que desejam melhorar sua organização e consciência financeira, mas que não possuem conhecimento técnico avançado sobre finanças.
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-Pessoas que necessitam planejar melhor sua saúde financeira por meio de análises, comparações e informações educativas.
+O agente será destinado principalmente a pessoas que desejam melhorar sua organização e consciência financeira, mas que não possuem conhecimento técnico avançado sobre finanças.
+
+Público principal:
+
+- pessoas com renda fixa ou variável;
+- jovens iniciando sua vida financeira;
+- pessoas que desejam controlar melhor seus gastos;
+- usuários que possuem dívidas;
+- pessoas que desejam criar objetivos financeiros;
+- usuários que desejam aprender sobre finanças;
+- pessoas que precisam de ajuda para interpretar sua situação financeira.
 
 ## Persona e Tom de Voz
 
