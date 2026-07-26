@@ -63,8 +63,7 @@ Pessoas que necessitam planejar melhor sua saúde financeira por meio de anális
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
-
+FinIA () 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
