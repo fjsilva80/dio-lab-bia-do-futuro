@@ -31,13 +31,14 @@ nível de conhecimento financeiro;
 preferências de comunicação.
 
 Exemplo:
-
+```sql
 {
   "usuario_id": 1001,
   "objetivo_principal": "organizar_financas",
   "nivel_conhecimento": "iniciante",
   "dependentes": 2
 }
+```
 B. Dados Financeiros
 
 Informações relacionadas à situação financeira do usuário:
@@ -65,7 +66,7 @@ Exemplo:
   "reserva_financeira": 10000
 }
 C. Dados Históricos
-'''
+```
 
 Informações que permitem identificar mudanças e padrões ao longo do tempo:
 
