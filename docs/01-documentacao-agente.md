@@ -186,18 +186,201 @@ flowchart TD
 | Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
 | Validação | [ex: Checagem de alucinações] |
 
----
+1. Interface do Usuário
+
+Responsável pela interação com o usuário.
+
+**Possíveis canais:**
+
+- aplicativo web;
+- aplicativo mobile;
+- chatbot;
+- WhatsApp;
+- sistema integrado.
+
+2. Orquestrador do Agente
+
+**Responsável por:**
+
+- receber a mensagem;
+- identificar a intenção do usuário;
+- recuperar informações relevantes;
+- enviar o contexto para a IA;
+- aplicar regras de segurança;
+- validar a resposta antes de apresentá-la.
+- 3. Perfil Financeiro do Usuário
+
+**Armazena informações como:**
+
+- renda;
+- despesas;
+- dívidas;
+- patrimônio;
+- objetivos;
+- hábitos financeiros;
+- preferências;
+- histórico de conversas relevantes.
+
+**O agente deverá utilizar somente informações autorizadas e disponíveis.**
+
+4. Banco de Dados Financeiro
+
+**Pode armazenar:**
+
+- receitas;
+- despesas;
+- categorias;
+- contas;
+- cartões;
+- dívidas;
+- investimentos;
+- objetivos;
+- histórico financeiro.
+
+**Inicialmente, os dados podem ser inseridos manualmente pelo usuário. Em versões futuras, poderão ser integrados dados financeiros autorizados pelo usuário.**
+
+5. Motor de Inteligência Artificial
+
+**Responsável por:**
+
+- interpretar perguntas;
+- compreender o contexto;
+- identificar padrões;
+- explicar informações;
+- gerar dicas;
+- comparar possibilidades;
+- adaptar a linguagem ao usuário.
+
+6. Analisador Financeiro
+
+**Responsável por realizar análises estruturadas, como:**
+
+- comparação entre receitas e despesas;
+- identificação de aumento de gastos;
+- análise de comprometimento da renda;
+- evolução financeira;
+- acompanhamento de metas;
+- identificação de possíveis pontos de atenção.
+
+7. Motor de Regras
+
+**Define comportamentos obrigatórios do agente.**
+
+Exemplos:
+
+* não tomar decisões pelo usuário;
+- não garantir resultados;
+- não inventar informações;
+- solicitar informações quando necessário;
+- alertar sobre limitações;
+- separar fatos de estimativas.
+
+8. Módulo de Resposta Consultiva
+
+**Transforma a análise em uma resposta compreensível.**
+
+A resposta poderá conter:
+
+- resumo da situação;
+- pontos observados;
+- possíveis riscos;
+- alternativas a considerar;
+- perguntas para reflexão;
+- dica final.
 
 ## Segurança e Anti-Alucinação
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+1. Utilização de dados fornecidos pelo usuário
+
+O agente deverá priorizar dados existentes no sistema.Caso não tenha uma informação, não deverá inventá-la.
+
+Exemplo:
+"Não tenho informações suficientes sobre a taxa de juros da sua dívida para fazer uma comparação precisa."
+
+2. Separação entre fatos e estimativas
+
+O agente deverá diferenciar:
+
+Fato:
+"Você informou que sua parcela mensal é de R$ 1.500."
+
+Estimativa:
+"Considerando os dados informados, essa parcela pode representar aproximadamente 20% da sua renda."
+
+3. Cálculos realizados por ferramentas confiáveis
+
+Cálculos financeiros importantes deverão ser realizados por um módulo específico, e não exclusivamente pelo modelo de IA.
+
+Exemplos:
+
+- somas;
+- porcentagens;
+- projeções;
+- juros;
+- parcelas;
+- evolução de metas.
+
+A IA interpreta o resultado, mas o cálculo deve ser validado por uma ferramenta determinística.
+
+4. Validação da resposta
+
+Antes de enviar a resposta ao usuário, o sistema poderá verificar:
+
+- se a resposta contém informações inventadas;
+- se os valores estão de acordo com os dados registrados;
+- se foram feitas promessas de resultado;
+- se o agente tomou uma decisão pelo usuário;
+- se foram utilizados dados não autorizados.
+- 
+5. Solicitação de informações adicionais
+
+Quando os dados forem insuficientes, o agente deverá perguntar.
+
+Exemplo:
+"Para ajudar você a analisar essa situação, seria importante saber a taxa de juros e o valor das parcelas. Sem essas informações, qualquer comparação seria apenas uma estimativa."
+
+6. Contexto limitado e controlado
+
+O agente deverá receber apenas as informações necessárias para responder à pergunta atual.
+
+Isso reduz o risco de:
+
+- utilizar informações antigas;
+- confundir dados de diferentes períodos;
+- misturar informações de usuários;
+- interpretar incorretamente o contexto.
+
+7. Respostas baseadas em cenários
+
+Sempre que possível, o agente deverá apresentar cenários.
+
+Exemplo:
+
+"Considerando o cenário A, o impacto seria este."
+
+"No cenário B, o resultado poderia ser diferente."
+
+Isso evita apresentar uma única resposta como verdade absoluta.
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+O agente deverá informar claramente que:
+
+- não é um consultor financeiro humano;
+- não substitui um profissional habilitado;
+- não pode garantir resultados financeiros;
+- não pode prever o futuro;
+- não conhece informações que não foram fornecidas;
+- suas análises dependem da qualidade dos dados recebidos;
+- estimativas podem variar conforme as condições do mercado;
+- decisões financeiras continuam sendo responsabilidade do usuário.
+
+Exemplo de declaração
+"As informações apresentadas têm caráter educativo e consultivo. Minha função é ajudar você a analisar sua situação financeira, apresentar possibilidades e destacar pontos de atenção. A decisão final é sempre sua."
+
+Princípio Central do Agente
+**A NOVA não decide pelo usuário. A NOVA ajuda o usuário a enxergar melhor antes de decidir.**
+
