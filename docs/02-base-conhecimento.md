@@ -382,6 +382,7 @@ flowchart TD
 
     I --> J["Resposta Consultiva"]
 
+```
 
 Princípio fundamental
 
