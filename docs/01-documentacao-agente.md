@@ -5,11 +5,21 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-O Agente Financeiro Consultivo é uma solução baseada em Inteligência Artificial desenvolvida para auxiliar pessoas na compreensão de sua situação financeira por meio de análises, comparações e informações educativas.
+Muitas pessoas têm dificuldade para compreender e organizar sua própria vida financeira.
 
-O objetivo do agente é fornecer contexto para apoiar o usuário em suas decisões, sem indicar qual decisão deve ser tomada.
+Mesmo possuindo renda, o usuário pode não saber:
 
-O sistema atua como um consultor informativo, ajudando o usuário a interpretar seus dados financeiros e a identificar padrões de comportamento.
+- para onde seu dinheiro está indo;
+- quanto realmente consegue economizar;
+- quais despesas estão comprometendo seu orçamento;
+- quais riscos existem ao assumir uma nova dívida;
+- como priorizar seus objetivos financeiros;
+- quais alternativas podem ser consideradas antes de tomar uma decisão.
+
+As ferramentas financeiras tradicionais geralmente apresentam dados, gráficos e números, mas nem sempre ajudam o usuário a interpretar essas informações de forma simples e personalizada.
+O problema é a falta de um assistente capaz de conversar com o usuário, compreender seu contexto financeiro e oferecer dicas e informações relevantes para ajudá-lo a refletir sobre suas próprias decisões.
+
+<span style="color:#FF0000">O agente não deve decidir pelo usuário. Seu papel é fornecer informações e ampliar a capacidade de análise da pessoa.</span>. 
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
