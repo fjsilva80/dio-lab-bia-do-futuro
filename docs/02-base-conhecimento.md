@@ -82,7 +82,7 @@ histórico de perguntas feitas ao agente;
 recomendações ou dicas apresentadas anteriormente.
 
 Exemplo:
-
+``` texto
 MÊS  | DESPESA       | 
 -----+---------------| 
 Junho| R$ 4.800      | 
@@ -91,6 +91,7 @@ Julho| R$ 5.500      |
 VARIAÇÃO | VALOR |  
 ---------+-------| 
 +        | R$ 700|
+```
 
 Esse histórico permite que a NOVA identifique tendências.
 
