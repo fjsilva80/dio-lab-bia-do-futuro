@@ -160,6 +160,8 @@ A adaptação facilita a interpretação pelo LLM.
 
 Tipos de adaptação
 Categorização
+
+```texo
 "Supermercado ABC"
         ↓
 Categoria: Alimentação
@@ -172,6 +174,7 @@ Junho: R$ 800
 Julho: R$ 1.200
         ↓
 Aumento: R$ 400
+```
 Resumo
 
 Em vez de enviar centenas de transações, o sistema pode enviar:
