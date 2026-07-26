@@ -134,15 +134,14 @@ Antes de serem utilizados, os dados deverão ser:
 
 ```texto
 Exemplo de dados brutos:
-| DATA    | TIPO DE GASTO    | VALOR    |
+| DATA     | TIPO DE GASTO    | VALOR   |
 |----------|-----------------|----------|
-|2026-07-01| MERCADO         |350.00    |
+|2026-07-01| MERCADO         | |350.00  |
 |2026-07-03| RESTAURANTE     | 180.00   |  
 |2026-07-05| SALARIO         | 8000.00  |
 |2026-07-07| COMBUSTIVEL     | 250.00   |
 |2026-07-10| STREAMING       | 59.90    |
 
-Dados adaptados
 ```
 O sistema poderá transformar os dados em:
 ```sql
