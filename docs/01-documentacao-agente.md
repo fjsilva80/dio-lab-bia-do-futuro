@@ -16,36 +16,36 @@ O sistema atua como um consultor informativo, ajudando o usuário a interpretar 
 
 Analisar despesas:
 - comparar gastos entre meses.
-Identificar aumento ou redução de despesas.
-Mostrar categorias com maior impacto no orçamento.
-Apresentar a evolução das despesas ao longo do tempo.
+- Identificar aumento ou redução de despesas.
+- Mostrar categorias com maior impacto no orçamento.
+-Apresentar a evolução das despesas ao longo do tempo.
 
 Analisar receitas:
-Comparar evolução da renda.
-Identificar fontes de receita.
-Demonstrar variações mensais.
-Apontar períodos de maior ou menor entrada de recursos.
+- Comparar evolução da renda.
+- Identificar fontes de receita.
+- Demonstrar variações mensais.
+- Apontar períodos de maior ou menor entrada de recursos.
 
 Analisar patrimônio: 
-Saldo em contas.
-Investimentos cadastrados.
-Bens informados.
-Dívidas registradas.
-Evolução do patrimônio.
+- Saldo em contas.
+- Investimentos cadastrados.
+- Bens informados.
+- Dívidas registradas.
+- Evolução do patrimônio.
 
 Acompanhar objetivos financeiros:
-Compra de imóvel.
-Compra de veículo.
-Formação de reserva financeira.
-Planejamento para aposentadoria.
-Viagens.
-Estudos.
+- Compra de imóvel.
+- Compra de veículo.
+- Formação de reserva financeira.
+- Planejamento para aposentadoria.
+- Viagens.
+- Estudos.
 
 Identificar tendências: 
-Crescimento contínuo das despesas.
-Redução da capacidade de poupança.
-Alterações no padrão de consumo.
-Aumento do comprometimento da renda.
+- Crescimento contínuo das despesas.
+- Redução da capacidade de poupança.
+- Alterações no padrão de consumo.
+- Aumento do comprometimento da renda.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
