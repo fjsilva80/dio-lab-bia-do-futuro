@@ -363,6 +363,8 @@ menor risco de confusão;
 maior privacidade;
 respostas mais relevantes.
 Resumo da Arquitetura da Base de Conhecimento
+
+
 ```mermaid
 flowchart TD
     A["Dados do Usuário"] --> E["Tratamento e Adaptação dos Dados"]
@@ -379,23 +381,8 @@ flowchart TD
     H --> I["Validação"]
 
     I --> J["Resposta Consultiva"]
-``````mermaid
-flowchart TD
-    A["Dados do Usuário"] --> E["Tratamento e Adaptação dos Dados"]
-    B["Dados Financeiros"] --> E
-    C["Dados Históricos"] --> E
-    D["Conhecimento Financeiro"] --> E
 
-    E --> F["Recuperação de Dados Relevantes"]
 
-    F --> G["Contexto Montado"]
-
-    G --> H["LLM<br/>Interpretação e Geração"]
-
-    H --> I["Validação"]
-
-    I --> J["Resposta Consultiva"]
-```
 Princípio fundamental
 
 Os dados financeiros são a fonte da verdade. O LLM é responsável por compreender o contexto e conversar com o usuário.
