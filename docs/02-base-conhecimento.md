@@ -294,7 +294,7 @@ Quando não houver informações suficientes, informe a limitação
 e solicite os dados necessários.
 
 --------------------------------------------------
-
+```texto
 [INFORMAÇÕES DO USUÁRIO]
 
 ID: 1001
@@ -363,6 +363,7 @@ Possível resposta gerada pelo LLM
 Vale investigar se esse aumento ocorreu por uma situação excepcional ou se está relacionado a um novo padrão de consumo. Uma possibilidade é separar os gastos entre supermercado, restaurantes e delivery para entender melhor o que contribuiu para essa mudança.
 
 Se quiser, posso ajudar você a comparar essas categorias com os meses anteriores."
+```
 
 Princípio da Base de Conhecimento
 
