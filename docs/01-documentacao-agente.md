@@ -19,7 +19,7 @@ Mesmo possuindo renda, o usuário pode não saber:
 As ferramentas financeiras tradicionais geralmente apresentam dados, gráficos e números, mas nem sempre ajudam o usuário a interpretar essas informações de forma simples e personalizada.
 O problema é a falta de um assistente capaz de conversar com o usuário, compreender seu contexto financeiro e oferecer dicas e informações relevantes para ajudá-lo a refletir sobre suas próprias decisões.
 
-**<span style="color:red">O agente não deve decidir pelo usuário. Seu papel é fornecer informações e ampliar a capacidade de análise da pessoa.</span>** 
+**O agente não deve decidir pelo usuário. Seu papel é fornecer informações e ampliar a capacidade de análise da pessoa.** 
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
