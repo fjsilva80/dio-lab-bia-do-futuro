@@ -152,7 +152,7 @@ flowchart TD
 
     O --> P[Perfil Financeiro]
     O --> B[Banco de Dados]
-    O --> IA[Motor de IA (LLM)]
+    O --> IA[Motor de IA - LLM -]
     O --> R[Motor de Regras]
     O --> S[Segurança]
 
