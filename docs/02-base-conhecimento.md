@@ -72,21 +72,21 @@ C. Dados Históricos
 
 Informações que permitem identificar mudanças e padrões ao longo do tempo:
 
-despesas dos meses anteriores;
-evolução da renda;
-evolução das dívidas;
-evolução dos investimentos;
-metas alcançadas;
-metas não alcançadas;
-histórico de perguntas feitas ao agente;
-recomendações ou dicas apresentadas anteriormente.
+- despesas dos meses anteriores;
+- evolução da renda;
+- evolução das dívidas;
+- evolução dos investimentos;
+- metas alcançadas;
+- metas não alcançadas;
+- histórico de perguntas feitas ao agente;
+- recomendações ou dicas apresentadas anteriormente.
 
 Exemplo:
 ``` texto
-MÊS  | DESPESA       | 
------+---------------| 
-Junho| R$ 4.800      | 
-Julho| R$ 5.500      | 
+MÊS  | DESPESA  | 
+-----+----------| 
+Junho| R$ 4.800 | 
+Julho| R$ 5.500 | 
 
 VARIAÇÃO | VALOR |  
 ---------+-------| 
@@ -99,15 +99,15 @@ D. Base de Conhecimento Financeiro
 
 Informações gerais utilizadas para explicar conceitos ao usuário:
 
-conceitos de orçamento;
-educação financeira;
-juros;
-inflação;
-crédito;
-endividamento;
-reserva financeira;
-planejamento financeiro;
-conceitos básicos de investimentos.
+- conceitos de orçamento;
+- educação financeira;
+- juros;
+- inflação;
+- crédito;
+- endividamento;
+- reserva financeira;
+- planejamento financeiro;
+- conceitos básicos de investimentos.
 
 Essas informações deverão ser utilizadas principalmente para fins educativos e explicativos.
 | Arquivo | Formato | Utilização no Agente |
