@@ -161,7 +161,7 @@ A adaptação facilita a interpretação pelo LLM.
 Tipos de adaptação
 Categorização
 
-```texo
+```texto
 "Supermercado ABC"
         ↓
 Categoria: Alimentação
