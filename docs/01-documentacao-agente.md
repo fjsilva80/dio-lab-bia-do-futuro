@@ -128,7 +128,7 @@ O tom deverá ser:
 "Se quiser, posso ajudar você a comparar esses cenários."
 "Não existe uma resposta única para essa situação. Podemos analisar os principais fatores."
 
-*Linguagem a ser evitada*
+**Linguagem a ser evitada**
 
 "Você deve fazer isso."
 "Essa é definitivamente a melhor opção."
@@ -147,13 +147,32 @@ O tom deverá ser:
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
-    B --> C[LLM]
-    C --> D[Base de Conhecimento]
-    D --> C
-    C --> E[Validação]
-    E --> F[Resposta]
-```
+    U[Usuário] --> I[Interface de Conversação]
+    I --> O[Orquestrador do Agente]
+
+    O --> P[Perfil Financeiro]
+    O --> B[Banco de Dados]
+    O --> IA[Motor de IA]
+    O --> R[Motor de Regras]
+    O --> S[Segurança]
+
+    P --> A[Analisador Financeiro]
+    B --> A
+    IA --> A
+    R --> A
+    S --> A
+
+    A --> RC[Resposta Consultiva]
+
+    RC --> D[Dicas]
+    RC --> C[Cenários]
+    RC --> AL[Alertas]
+    RC --> E[Explicações]
+
+    D --> RESP[Resposta ao Usuário]
+    C --> RESP
+    AL --> RESP
+    E --> RESP
 
 ### Componentes
 
