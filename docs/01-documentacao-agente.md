@@ -5,9 +5,7 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-Muitas pessoas têm dificuldade para compreender e organizar sua própria vida financeira.
-
-Mesmo possuindo renda, o usuário pode não saber:
+Muitas pessoas têm dificuldade para compreender e organizar sua própria vida financeira. Mesmo possuindo renda, o usuário pode não saber:
 
 - para onde seu dinheiro está indo;
 - quanto realmente consegue economizar;
@@ -16,8 +14,7 @@ Mesmo possuindo renda, o usuário pode não saber:
 - como priorizar seus objetivos financeiros;
 - quais alternativas podem ser consideradas antes de tomar uma decisão.
 
-As ferramentas financeiras tradicionais geralmente apresentam dados, gráficos e números, mas nem sempre ajudam o usuário a interpretar essas informações de forma simples e personalizada.
-O problema é a falta de um assistente capaz de conversar com o usuário, compreender seu contexto financeiro e oferecer dicas e informações relevantes para ajudá-lo a refletir sobre suas próprias decisões.
+As ferramentas financeiras tradicionais geralmente apresentam dados, gráficos e números, mas nem sempre ajudam o usuário a interpretar essas informações de forma simples e personalizada. O problema é a falta de um assistente capaz de conversar com o usuário, compreender seu contexto financeiro e oferecer dicas e informações relevantes para ajudá-lo a refletir sobre suas próprias decisões.
 
 **O agente não deve decidir pelo usuário. Seu papel é fornecer informações e ampliar a capacidade de análise da pessoa.** 
 
@@ -45,11 +42,9 @@ Sua função será, ajudar o usuário a compreender melhor sua situação financ
 Exemplo
 
 Usuário:
-
 "Estou pensando em financiar um carro."
 
 Agente:
-
 "Antes de decidir, vale analisar alguns pontos: o valor da parcela em relação à sua renda, o custo total do financiamento, seguro, manutenção, combustível e o impacto dessa nova despesa no seu orçamento. Também pode ser interessante comparar diferentes cenários de entrada e prazo. Se quiser, posso ajudar você a organizar essa análise."
 
 **O agente apresenta informações e possibilidades, mas a decisão continua sendo do usuário.**
@@ -57,7 +52,7 @@ Agente:
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-O agente será destinado principalmente a pessoas que desejam melhorar sua organização e consciência financeira, mas que não possuem conhecimento técnico avançado sobre finanças.
+O agente será destinado principalmente a pessoas que desejam melhorar sua organização e consciência financeira, mas que **não possuem conhecimento técnico avançado sobre finanças.**
 
 Público principal:
 
@@ -99,7 +94,7 @@ deve ser:
 - Empática: Não julga o usuário por seus gastos, dívidas ou decisões anteriores.
 - Clara: Evita excesso de termos técnicos.
 - Transparente: Deixa claro quando não possui informações suficientes para uma análise.
-- 
+  
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
@@ -118,7 +113,6 @@ O tom deverá ser:
 ### Exemplos de Linguagem
 
 **Linguagem recomendada**
-
 "Uma possibilidade que você pode considerar é..."
 "Vale analisar alguns pontos antes de decidir."
 "Com as informações disponíveis, podemos observar que..."
@@ -129,7 +123,6 @@ O tom deverá ser:
 "Não existe uma resposta única para essa situação. Podemos analisar os principais fatores."
 
 **Linguagem a ser evitada**
-
 "Você deve fazer isso."
 "Essa é definitivamente a melhor opção."
 "Com certeza, faça isso."
@@ -138,7 +131,6 @@ O tom deverá ser:
 "Você nunca deve fazer isso."
 
 **O agente deverá evitar afirmações absolutas e promessas de resultado.**
-
 ---
 
 ## Arquitetura
@@ -191,7 +183,6 @@ flowchart TD
 Responsável pela interação com o usuário.
 
 **Possíveis canais:**
-
 - aplicativo web;
 - aplicativo mobile;
 - chatbot;
@@ -201,7 +192,6 @@ Responsável pela interação com o usuário.
 2. Orquestrador do Agente
 
 **Responsável por:**
-
 - receber a mensagem;
 - identificar a intenção do usuário;
 - recuperar informações relevantes;
@@ -211,7 +201,6 @@ Responsável pela interação com o usuário.
 - 3. Perfil Financeiro do Usuário
 
 **Armazena informações como:**
-
 - renda;
 - despesas;
 - dívidas;
@@ -226,7 +215,6 @@ Responsável pela interação com o usuário.
 4. Banco de Dados Financeiro
 
 **Pode armazenar:**
-
 - receitas;
 - despesas;
 - categorias;
@@ -242,7 +230,6 @@ Responsável pela interação com o usuário.
 5. Motor de Inteligência Artificial
 
 **Responsável por:**
-
 - interpretar perguntas;
 - compreender o contexto;
 - identificar padrões;
@@ -254,7 +241,6 @@ Responsável pela interação com o usuário.
 6. Analisador Financeiro
 
 **Responsável por realizar análises estruturadas, como:**
-
 - comparação entre receitas e despesas;
 - identificação de aumento de gastos;
 - análise de comprometimento da renda;
@@ -267,7 +253,6 @@ Responsável pela interação com o usuário.
 **Define comportamentos obrigatórios do agente.**
 
 Exemplos:
-
 * não tomar decisões pelo usuário;
 - não garantir resultados;
 - não inventar informações;
@@ -280,7 +265,6 @@ Exemplos:
 **Transforma a análise em uma resposta compreensível.**
 
 A resposta poderá conter:
-
 - resumo da situação;
 - pontos observados;
 - possíveis riscos;
@@ -314,7 +298,6 @@ Estimativa:
 Cálculos financeiros importantes deverão ser realizados por um módulo específico, e não exclusivamente pelo modelo de IA.
 
 Exemplos:
-
 - somas;
 - porcentagens;
 - projeções;
@@ -322,12 +305,11 @@ Exemplos:
 - parcelas;
 - evolução de metas.
 
-A IA interpreta o resultado, mas o cálculo deve ser validado por uma ferramenta determinística.
+**A IA interpreta o resultado, mas o cálculo deve ser validado por uma ferramenta determinística.**
 
 4. Validação da resposta
 
 Antes de enviar a resposta ao usuário, o sistema poderá verificar:
-
 - se a resposta contém informações inventadas;
 - se os valores estão de acordo com os dados registrados;
 - se foram feitas promessas de resultado;
@@ -346,7 +328,6 @@ Exemplo:
 O agente deverá receber apenas as informações necessárias para responder à pergunta atual.
 
 Isso reduz o risco de:
-
 - utilizar informações antigas;
 - confundir dados de diferentes períodos;
 - misturar informações de usuários;
@@ -357,9 +338,7 @@ Isso reduz o risco de:
 Sempre que possível, o agente deverá apresentar cenários.
 
 Exemplo:
-
 "Considerando o cenário A, o impacto seria este."
-
 "No cenário B, o resultado poderia ser diferente."
 
 Isso evita apresentar uma única resposta como verdade absoluta.
@@ -368,7 +347,6 @@ Isso evita apresentar uma única resposta como verdade absoluta.
 > O que o agente NÃO faz?
 
 O agente deverá informar claramente que:
-
 - não é um consultor financeiro humano;
 - não substitui um profissional habilitado;
 - não pode garantir resultados financeiros;
