@@ -132,6 +132,7 @@ Antes de serem utilizados, os dados deverão ser:
 - contextualizados;
 - validados.
 
+```texto
 Exemplo de dados brutos
 2026-07-01 MERCADO 350.00
 2026-07-03 RESTAURANTE 180.00
@@ -139,7 +140,7 @@ Exemplo de dados brutos
 2026-07-07 COMBUSTIVEL 250.00
 2026-07-10 STREAMING 59.90
 Dados adaptados
-
+```
 O sistema poderá transformar os dados em:
 ```sql
 {
