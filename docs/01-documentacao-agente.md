@@ -19,7 +19,7 @@ O sistema atua como um consultor informativo, ajudando o usuário a interpretar 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-auxiliar pessoas na compreensão de sua situação financeira por meio de análises, comparações e informações educativas.
+Pessoas que necessitam planejar melhor sua saúde financeira por meio de análises, comparações e informações educativas.
 
 ## Persona e Tom de Voz
 
