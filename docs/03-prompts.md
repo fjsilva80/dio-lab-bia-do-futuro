@@ -516,8 +516,6 @@ O prompt completo enviado ao modelo de linguagem pode ser montado dinamicamente:
 
 ## Conceito principal
 
-> **A Base de dados dos usuários ira solicitar autenticação para iniciar o atendimento**
-
 > **A Base de Dados fornece os fatos.**
 >
 > **O Contexto seleciona as informações relevantes.**
