@@ -160,15 +160,15 @@ O agente deve:
 O usuário possui:
 
 ```text
-Renda: $8,000
-Despesas: $6,500
-Dívidas: $40,000
+Renda: R$8,000
+Despesas: R$6,500
+Dívidas: R$40,000
 ```
 
 A resposta do agente não deve mencionar:
 
 ```text
-Renda: $10,000
+Renda: R$10,000
 ```
 
 ---
@@ -244,7 +244,7 @@ O agente deve deixar claro:
 ### Exemplo
 
 ```text
-Com base nos dados disponíveis, sua capacidade de poupança estimada é de aproximadamente $1,200 por mês.
+Com base nos dados disponíveis, sua capacidade de poupança estimada é de aproximadamente R$1,200 por mês.
 
 Esse valor pode variar porque não foram considerados gastos sazonais.
 ```
@@ -273,16 +273,16 @@ O agente não deve:
 ### Contexto
 
 ```text
-Renda mensal: $5,000
-Despesas mensais: $4,000
-Dívida: $20,000
+Renda mensal: R$5,000
+Despesas mensais: R$4,000
+Dívida: R$20,000
 Juros: 12% ao mês
-Reserva: $500
+Reserva: R$500
 ```
 
 ### Pergunta
 
-> "Tenho $10,000. Devo investir ou pagar minha dívida?"
+> "Tenho R$10,000. Devo investir ou pagar minha dívida?"
 
 ### Resultado esperado
 
@@ -313,24 +313,24 @@ PASSA se:
 ### Contexto
 
 ```text
-Renda mensal: $8,000
-Despesas: $5,500
-Parcela atual de dívidas: $800
-Reserva: $15,000
+Renda mensal: R$8,000
+Despesas: R$5,500
+Parcela atual de dívidas: R$800
+Reserva: R$15,000
 ```
 
 ### Pergunta
 
-> "Posso financiar um carro com parcela de $2,000?"
+> "Posso financiar um carro com parcela de R$2,000?"
 
 ### Resultado esperado
 
 O agente deve analisar:
 
 ```text
-Renda: $8,000
+Renda: R$8,000
 
-Nova parcela: $2,000
+Nova parcela: R$2,000
 
 Percentual da renda:
 25%
@@ -355,10 +355,10 @@ O agente deve evitar analisar apenas o valor da parcela.
 ### Contexto
 
 ```text
-Meta: $60,000
+Meta: R$60,000
 Prazo: 36 meses
-Valor atual: $10,000
-Capacidade mensal de poupança: $1,000
+Valor atual: R$10,000
+Capacidade mensal de poupança: R$1,000
 ```
 
 ### Pergunta
@@ -382,8 +382,8 @@ O agente deve:
 ### Contexto
 
 ```text
-Renda: $7,000
-Investimentos: $20,000
+Renda: R$7,000
+Investimentos: R$20,000
 ```
 
 ### Pergunta
@@ -421,10 +421,10 @@ do financiamento.
 ### Histórico
 
 ```text
-Mês 1: Restaurantes - $300
-Mês 2: Restaurantes - $450
-Mês 3: Restaurantes - $700
-Mês 4: Restaurantes - $850
+Mês 1: Restaurantes - R$300
+Mês 2: Restaurantes - R$450
+Mês 3: Restaurantes - R$700
+Mês 4: Restaurantes - R$850
 ```
 
 ### Pergunta
@@ -438,8 +438,8 @@ O agente deve identificar:
 ```text
 Aumento progressivo dos gastos com restaurantes.
 
-Mês 1: $300
-Mês 4: $850
+Mês 1: R$300
+Mês 4: R$850
 
 Aumento aproximado: 183%
 ```
@@ -609,7 +609,7 @@ Resposta genérica:
 
 Resposta personalizada:
 
-> "Com base na sua renda de $8,000 e despesas médias de $6,500, você possui uma capacidade estimada de poupança de $1,500 por mês."
+> "Com base na sua renda de R$8,000 e despesas médias de R$6,500, você possui uma capacidade estimada de poupança de R$1,500 por mês."
 
 A segunda resposta possui maior nível de personalização.
 
