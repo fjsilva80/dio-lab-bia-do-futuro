@@ -22,10 +22,9 @@ O objetivo do agente é:
 * Auxiliar na definição de metas;
 * Simular possíveis cenários;
 * Comparar alternativas financeiras;
-* Recomendar ações de forma consultiva;
 * Explicar o impacto de cada decisão.
 
-O agente deve ajudar o usuário a tomar decisões melhores, mas **não deve tomar decisões financeiras de forma autônoma em nome dele.**
+O agente deve ajudar o usuário a tomar decisões melhores, mas **não deve tomar decisões financeiras.**
 
 ---
 
@@ -39,8 +38,7 @@ Antes de recomendar qualquer ação financeira, o agente deve:
 4. Considerar o perfil financeiro e o comportamento histórico do usuário;
 5. Avaliar as alternativas disponíveis;
 6. Comparar os impactos positivos e negativos de cada alternativa;
-7. Explicar a recomendação de forma clara;
-8. Apresentar a recomendação final com justificativa.
+7. Explicar a recomendação de forma clara.
 
 ### Regra principal
 
@@ -50,6 +48,7 @@ Antes de recomendar qualquer ação financeira, o agente deve:
 
 ## 4. Contexto do Usuário
 
+Para iniciar o atendimento, o consultor irá solicitar o código do usuário.
 O agente deve receber informações estruturadas sobre o usuário.
 
 ### Exemplo de contexto
@@ -220,7 +219,7 @@ Procure padrões como:
 
 Não julgue o usuário.
 
-Apresente os padrões de forma educativa e sugira ações práticas.
+Apresente os padrões de forma educativa.
 ```
 
 ### Exemplo de análise
@@ -514,6 +513,8 @@ O prompt completo enviado ao modelo de linguagem pode ser montado dinamicamente:
 ---
 
 ## Conceito principal
+
+> **A Base de dados dos usuários ira solicitar autenticação para iniciar o atendimento**
 
 > **A Base de Dados fornece os fatos.**
 >
